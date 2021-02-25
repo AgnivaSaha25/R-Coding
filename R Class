@@ -12,10 +12,7 @@
 [1] TRUE
 > nummy
 [1] 2 3 4
-> is.double(nnummy_int)
-Error: object 'nnummy_int' not found
-> is.double(nummy_int
-+ )
+> is.double(nummy_int)
 [1] FALSE
 > is.character(nummy)
 [1] FALSE
