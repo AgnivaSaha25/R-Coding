@@ -103,9 +103,9 @@ Error: unexpected ',' in "days,"
 [1] "Mon" "Tue" "Wed" "Sat" "Sun"
 > objects <- c("Pen","Paper","Book")
 > objects
-[1] "Pen"   "Paper" "Book" 
-> new1 <- c(objects, pencil)
+[1] "Pen" "Paper" "Book" 
+> obj <- c(objects, pencil)
 Error: object 'pencil' not found
-> new1 <- c(objects, "pencil")
-> new1
+> obj <- c(objects, "pencil")
+> obj
 [1] "Pen"    "Paper"  "Book"   "pencil"
